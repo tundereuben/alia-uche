@@ -1,0 +1,152 @@
+html,
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#site-name{
+    text-align: center;
+    margin-top: 10px;
+}
+
+#site-name a {
+    text-decoration: none;
+    color: #313131;
+}
+
+#nav {
+    border-top: solid 1px #ccc;
+    border-bottom: solid 1px #ccc;
+}
+#nav ul  {
+    margin: auto;
+}
+
+#nav ul li {
+    padding: 0 1rem;
+}
+
+#main-book {
+   margin: 4rem 0;
+}
+
+#main-book img, #about-alia img, #opt-in img {
+    max-width: 100%;
+}
+
+#about-alia {
+    padding: 4rem 0;
+    background: #eee;
+}
+
+#about-alia h3{
+    text-align: center;
+/*    text-decoration: underline;*/
+
+}
+
+#video {
+    margin: 5rem 1rem;
+    text-align: center;
+}
+
+#video iframe {
+    max-width: 100%;
+}
+
+/*== Optin Form ==*/
+#opt-in {
+    padding: 4rem 0;
+    /* background: #eee; */
+}
+
+#opt-in h3{
+    /* text-align: center; */
+}
+#opt-in form{
+  background: #171717;
+  padding: 20px;
+}
+
+footer{
+    text-align: center;
+    background: #171717;
+    color: white;
+    margin: 0;
+}
+
+footer div{
+    padding: 20px 0;
+}
+
+footer a{
+    margin: 10px;
+    color: white;
+}
+
+/*Works*/
+#works{
+    margin: 4rem 0;
+}
+
+#works .card-group{
+    padding: 1rem 0;
+}
+
+/*Bio*/
+#bio{
+    margin: 4rem 0;
+}
+
+#bio img {
+    max-width: 100%;
+}
+
+/*Tour*/
+#tour{
+     margin: 4rem 1rem;
+}
+
+/*Contact*/
+#contact {
+    margin: 4rem 1rem;
+    text-align: justify;
+}
+
+#contact .bold {
+    font-weight: bold;
+}
+form {
+  margin-top: 40px;
+}
+
+form .form-row{
+  margin-bottom: 20px;
+}
+
+#error404{
+  margin: 70px auto;
+  padding: 50px;
+  border: solid 1px #ccc;
+  text-align: center;
+}
+
+/*Small devices (landscape phones, 576px and down)*/
+@media (max-width: 576px) {
+    #main-book {
+        padding: 0 10px;
+    }
+    #main-book h3{
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    #main-book .button {
+        text-align: center;
+    }
+    #about-alia .button{
+        text-align: center;
+    }
+
+}
